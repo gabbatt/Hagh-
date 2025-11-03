@@ -1,0 +1,41 @@
+body {
+  background-image: url("img_Arendt/Arendt_Bild.png");
+  color: lightblue (180, 0, 90);
+  font-size: medium;
+}
+
+h1, h2, h3 {
+  color: white(0, 90, 140);
+  font-weight: bold;
+}
+
+h2 {
+  text-decoration: underline;
+  font-size: small;
+}
+
+ul {
+  color: rgb(150, 0, 180);
+  font-size: large;
+}
+
+button {
+  background-color: lightgray;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: medium;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+  border-radius: 12px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.0787);
+}
